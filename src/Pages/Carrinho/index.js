@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import { Button, Table } from "react-bootstrap";
 import { api } from "../../../src/Services";
 import { DataContext } from "../../Context/data";
-
+import { Link } from "react-router-dom";
 export const Carrinho = () => {
  
   const [valorTotal, setValorTotal] = useState(0);
@@ -62,7 +62,10 @@ export const Carrinho = () => {
             </table>
                     <div>
                       <label> Valor Total: {valorTotal.toFixed(2)}</label>
-                      
+                      <br></br>
+                      <Link to={`/`}>
+                        <Button>Voltar para home</Button>
+                        </Link>
                     </div>                   
     </>
   )
