@@ -73,3 +73,11 @@ export const Data = (props) => {
 
     )
 }
+
+
+// Salvar produtos do carrinho método post
+// const handlePost = () => {
+// api.post("/itemprodutos", produtos
+// ).then(valorTotal)
+// }
+// 

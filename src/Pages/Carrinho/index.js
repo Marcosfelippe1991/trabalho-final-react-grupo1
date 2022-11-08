@@ -70,3 +70,8 @@ export const Carrinho = () => {
     </>
   )
 }
+
+// Método de post do carrinho
+// 
+// <Button onClick={() => {handlePost(item)}}>Comprar</Button>
+// 
